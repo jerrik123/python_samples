@@ -47,11 +47,11 @@ def init_db_config():
     global jdbcConfig
     if platform.system() == "Linux":
         logger.info("init Linux config")
-        jdbcConfig = dict(host="10.131.36.64", port=3306, user="cftoss_new", passwd="cftoss@E23new",
+        jdbcConfig = dict(host="xxxx", port=3306, user="xxx", passwd="xxx",
                           db="cftoss_dimension", charset="GBK")
     else:
         logger.info("init Windows config")
-        jdbcConfig = dict(host="10.85.12.46", port=3306, user="cftoss_new", passwd="cftoss@E23new",
+        jdbcConfig = dict(host="xxxx", port=3306, user="xxx", passwd="xxx",
                           db="cftoss_dimension", charset="GBK")
 
 def getConnection():
