@@ -48,11 +48,11 @@ def init_db_config():
     if platform.system() == "Linux":
         logger.info("init Linux config")
         jdbcConfig = dict(host="xxxx", port=3306, user="xxx", passwd="xxx",
-                          db="cftoss_dimension", charset="GBK")
+                          db="...", charset="GBK")
     else:
         logger.info("init Windows config")
         jdbcConfig = dict(host="xxxx", port=3306, user="xxx", passwd="xxx",
-                          db="cftoss_dimension", charset="GBK")
+                          db="...", charset="GBK")
 
 def getConnection():
     return MySQLdb.Connect(host=jdbcConfig['host'], port=jdbcConfig['port'], user=jdbcConfig['user'],

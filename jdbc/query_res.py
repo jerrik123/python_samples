@@ -15,7 +15,7 @@ except Exception as e:
 
 def getApi_body():
     api_body = {}
-    api_body['iplist'] = '100.122.206.18'
+    api_body['iplist'] = '...'
     return api_body
 
 def queryResInfo():
